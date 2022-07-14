@@ -10,6 +10,7 @@ h1{
 }
 section{
     display:flex;
+    margin-bottom: 150px;
 }
 .half1{
     width: 50%;
@@ -21,7 +22,7 @@ section{
 }
 .link-button{
     text-decoration: none;
-    background-image:linear-gradient(salmon,orange);
+    background-image:linear-gradient(tomato, orange);
     color: white;
     font-weight: 700;
     padding: 10px 30px;
@@ -30,4 +31,12 @@ section{
 .top-banner{
     background-image: url(images/top-banner.png);
     background-repeat: no-repeat;
+}
+.dream-big{
+    background-image: url(images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+}
+.ektu{
+    color: rgb(247, 136, 45);
 }
